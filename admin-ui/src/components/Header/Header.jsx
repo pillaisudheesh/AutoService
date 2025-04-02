@@ -9,15 +9,16 @@ const Header = ({ darkMode, toggleDarkMode, toggleSidebar }) => {
             <div className="px-3 py-3 lg:px-5 lg:pl-3">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center justify-start rtl:justify-end">
-                        <button onClick={toggleSidebar} className="focus: inline-flex items-center rounded-lg p-2 
-                        text-sm text-gray-500 ring-gray-200 hover:bg-gray-100 focus:ring-2 focus:outline-none 
-                        sm:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+                        <button
+                            onClick={toggleSidebar}
+                            className="focus: inline-flex items-center rounded-lg p-2 text-sm text-gray-500 ring-gray-200 hover:bg-gray-100 focus:ring-2 focus:outline-none sm:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        >
                             <HiOutlineMenuAlt2 className="text-2xl" />
                         </button>
                         <a href="#" className="ms-2 flex md:me-24">
                             <MdSpaceDashboard className="me-3 h-8 text-xl text-violet-500" />
                             <span className="self-center text-xl font-semibold whitespace-nowrap sm:text-2xl dark:text-white">
-                                autoService
+                                autoAssist Dashboard
                             </span>
                         </a>
                     </div>

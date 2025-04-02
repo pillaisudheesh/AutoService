@@ -30,7 +30,7 @@ module.exports = {
       proxy: [
         {
           context: '/auto-service/api',
-          target: 'https://localhost:5600',
+          target: 'http://localhost:3000',
           // router: () => 'https://localhost:5601',
           logLevel: 'debug',
           secure: false,
